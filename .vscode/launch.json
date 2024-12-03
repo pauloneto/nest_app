@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Next.js",
+        "type": "node",
+        "request": "launch",
+        "skipFiles": ["<node_internals>/**"],
+       "program": "${workspaceFolder}/frontend/node_modules/.bin/next",
+        "args": ["dev"],
+        "cwd": "${workspaceFolder}/frontend", // Certifique-se de que é o diretório correto
+        "runtimeExecutable": "/home/paulo/.nvm/versions/node/v20.18.1/bin/node", 
+        "runtimeArgs": ["--inspect-brk"]
+      }
+    ]
+  }
+  
